@@ -134,23 +134,23 @@ let  car1 = {
 console.log(car1);
 
 let car2 = Object.assign({}, car1);
-car2.licensePlate = "1bc456"
+car2.licensePlate = "1bc456";
 console.log(car2);
 
 let car3 = Object.assign({}, car1);
-car3.licensePlate = "1bc456"
+car3.licensePlate = "1bc457";
 console.log(car3);
 
 let car4 = Object.assign({}, car1);
-car4.licensePlate = "1bc456"
+car4.licensePlate = "1bc458";
 console.log(car4);
 
-let car4 = Object.assign({}, car1);
-car5.licensePlate = "1bc456"
+let car5 = Object.assign({}, car1);
+car5.licensePlate = "1bc459";
 console.log(car5);
 
 let car6 = Object.assign({}, car1);
-car6.licensePlate = "1bc456"
+car6.licensePlate = "1bc410";
 console.log(car6);
 
 
@@ -170,6 +170,14 @@ console.log(car6);
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
+
+let cartype = {
+    brand: "toyota",
+    color: "blue",
+
+
+}
+console.log(typeof cartype.brand);
 
 /* WRITE YOUR ANSWER HERE */
 
